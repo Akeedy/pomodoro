@@ -1,0 +1,69 @@
+:root {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    --bg-primary-dark: #0C0D14;
+    --bg-secondary-dark: #c3c3c3ec;
+    --bg-primary-light: #efefef;
+    --bg-primary-light: #eccecece;
+    --txt-primary: black;
+    --txt-secondary: white;
+    --txt-red: red;
+    --txt-yellow: yellow;
+    --txt-aqua: aqua;
+    --speed: 200;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-primary-dark);
+}
+
+main {
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 30vw;
+    height: 20vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#timer {
+    font-size: 10rem;
+    color: var(--txt-secondary);
+    padding: 2rem;
+    padding-bottom: 0;
+    margin: 1rem;
+}
+
+.button {
+    width: 100%;
+}
+
+.button {
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    padding: .5rem;
+    width: 20%;
+    color: var(--txt-red);
+    border: 0.1rem solid var(--bg-primary-dark);
+    transform: 400ms;
+    font-size: 1.25rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    border: 0.1rem solid white;
+    background-color: var(--bg-primary-dark);
+    color: var(--txt-red);
+    transform: 400ms;
+}
